@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Chill</title>
+    <link rel="shortcut icon" href="../img/Vector.png" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/auth.css">
+</head>
+<body class="body" id="register-body">
+    <main class="container">
+        <div class="header">
+            <img class="logo" src="../img/Logo.png" alt="logo-chill">
+                <div class="header-title">
+                    <h1>Daftar</h1>
+                    <p>Selamat datang</p>
+                </div>
+        </div>
+        <form action="" class="formContainer">
+            <div class="formInput">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username" placeholder="Masukkan username" required/>
+            </div>
+            <div class="formInput">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="Masukkan password" required/>
+                <img src="../img/eye.png" alt="eye">
+            </div>
+            <div class="formInput" id="confirmation-password">
+                <label for="password-confirm">Confirm Password</label>
+                <input type="password" name="password-confirm" id="password-confirm" placeholder="Masukkan password kembali" required/>
+                <img src="../img/eye.png" alt="eye">
+            </div>
+            <div class="formAdditional-info">
+                <p>
+                    Sudah punya akun? 
+                    <a id="register" href="../index.html">Masuk</a>
+                </p>
+            </div>
+            <div class="formAction">  
+                <a class="btn" href="../index.html">Daftar</a>
+                <a class="btn" href="../index.html">
+                      <img src="../img/google.png" alt="google-icon" class="google-icon">Daftar dengan Google
+                    </a>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
